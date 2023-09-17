@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Paragraph7}
+\author{ANTONIETTE BENTAZAL}
+\date{September 2023}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+\subsection{Paragraph 7}
+
+\textbf{(ibutang ni siya sa last part sa paragraph 6 para ma indent ang paragraph 7).} \par
+
+ In case $j < k$ and $j | k$, some solutions with ${gcd}(a, b, c, d) > 1$ might be considered if one wants to see all solutions, because sometimes a common factor cannot be canceled. For example, one solution to $a^3 + b^3 = c^6 + d^6$ is 
+ \begin{equation}   
+102^3 + 330^3 = 12^6 + 18^6 \label{eq: Einstein }
+\end{equation}
+and the common factor $6$ of the four numbers cannot be canceled since it appears to different powers on the two sides of the equation. However, this solution comes from a solution to $w^3 + x^3 = y^3 + z^3$. If $k = {gcd}(a, b, c, d) > 1$ for a solution to $a^3 + b^3 = c^6 + d^6$, then this equation may be rewritten as $(kw)^3+(kx)^3 = (ke)^6+(kf)^6$ or $[k^3w^3+k^3x^3 = (k^2e^2)^3+(k^2f^2)^3$ from which $k^3$ may be canceled to give $w^3 + x^3 = (ke^2)^3 + (kf^2)^3$ which is primitive.
+\end{document}
